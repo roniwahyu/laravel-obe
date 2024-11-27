@@ -24,4 +24,8 @@ class Kernel extends ConsoleKernel
 
         require base_path('routes/console.php');
     }
+    // Command untuk generator Livewire
+    protected $commands = [
+        \App\Console\Commands\GenerateLivewireModule::class,
+    ];
 }

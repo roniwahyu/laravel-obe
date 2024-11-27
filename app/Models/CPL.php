@@ -8,8 +8,4 @@ use Illuminate\Database\Eloquent\Model;
 class CPL extends Model
 {
     use HasFactory;
-    public function cpmks()
-    {
-        return $this->hasMany(CPMK::class);
-    }
 }

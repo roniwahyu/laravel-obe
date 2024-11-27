@@ -8,8 +8,4 @@ use Illuminate\Database\Eloquent\Model;
 class ProfilLulusan extends Model
 {
     use HasFactory;
-    public function profilLulusans()
-    {
-        return $this->hasMany(ProfilLulusan::class);
-    }
 }
